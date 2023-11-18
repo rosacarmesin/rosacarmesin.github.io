@@ -58,6 +58,7 @@ body{
   text-align: center;
 }
 .sidemenu div{
+  box-sizing: border-box;
   display: inline-block;
   border-width: 1px;
   border-bottom-style: solid;
@@ -66,6 +67,9 @@ body{
   padding: 3px 2px 3px 2px;
 }
 .sidemenu a{
+  color:#a00;
+}
+.activepage{
   color:#ef0000;
   text-shadow: 0 0 20px #fe2222;
 }

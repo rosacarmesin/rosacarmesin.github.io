@@ -101,9 +101,8 @@ a.activepage{
 .pbox-top{
   background: -webkit-linear-gradient(transparent, transparent),
   url(https://64.media.tumblr.com/f779a82a249f152f37814cabb4c54c44/3cbe5862d1215db1-90/s400x600/8d58a50b4f9abb6708b631c944b18c4356f1df1c.gif) repeat;
-  display: flex;
+  display: grid;
   padding: 0;
-  justify-content: flex-end;
   align-items: center;
   border-style: solid;
   border-color:#0e04c9;
@@ -112,8 +111,7 @@ a.activepage{
   padding: 0 6px 0 0;
 }
 .pbox-top span{
-  display: inline-flex;
-  float: right;
+  justify-self: right;
   font-size: 10px;
   font-family: sans-serif;
   font-weight: lighter;

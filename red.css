@@ -69,7 +69,7 @@ body{
 .sidemenu a{
   color:#a00;
 }
-.activepage{
+#activepage{
   color:#ef0000;
   text-shadow: 0 0 20px #fe2222;
 }
